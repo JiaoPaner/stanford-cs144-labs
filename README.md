@@ -79,3 +79,31 @@ To format (you'll need `clang-format`):
 To see all available targets,
 
     $ make help
+
+### lab0
+
+```bash
+(base) jiaopan@master:~/projects/c++/stanford-cs144-labs/cmake-build-debug/apps$ ./webget cs144.keithw.org /hello
+HTTP/1.1 200 OK
+Date: Wed, 02 Sep 2020 05:35:31 GMT
+Server: Apache
+Last-Modified: Thu, 13 Dec 2018 15:45:29 GMT
+ETag: "e-57ce93446cb64"
+Accept-Ranges: bytes
+Content-Length: 14
+Content-Type: text/plain
+
+Hello, CS144!
+
+(base) jiaopan@master:~/projects/c++/stanford-cs144-labs/cmake-build-debug$ make check_webget
+[100%] Testing webget...
+Test project /home/jiaopan/projects/c++/stanford-cs144-labs/cmake-build-debug
+    Start 27: t_webget
+1/1 Test #27: t_webget .........................   Passed    0.59 sec
+
+100% tests passed, 0 tests failed out of 1
+
+Total Test time (real) =   0.59 sec
+[100%] Built target check_webget
+
+```
