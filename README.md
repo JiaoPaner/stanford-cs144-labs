@@ -106,4 +106,32 @@ Test project /home/jiaopan/projects/c++/stanford-cs144-labs/cmake-build-debug
 Total Test time (real) =   0.59 sec
 [100%] Built target check_webget
 
+
+(base) jiaopan@master:~/projects/c++/stanford-cs144-labs/cmake-build-debug$ make check_lab0
+[100%] Testing Lab 0...
+Test project /home/jiaopan/projects/c++/stanford-cs144-labs/cmake-build-debug
+    Start 22: t_byte_stream_construction
+1/9 Test #22: t_byte_stream_construction .......   Passed    0.00 sec
+    Start 23: t_byte_stream_one_write
+2/9 Test #23: t_byte_stream_one_write ..........   Passed    0.00 sec
+    Start 24: t_byte_stream_two_writes
+3/9 Test #24: t_byte_stream_two_writes .........   Passed    0.00 sec
+    Start 25: t_byte_stream_capacity
+4/9 Test #25: t_byte_stream_capacity ...........   Passed    0.00 sec
+    Start 26: t_byte_stream_many_writes
+5/9 Test #26: t_byte_stream_many_writes ........   Passed    0.01 sec
+    Start 27: t_webget
+6/9 Test #27: t_webget .........................   Passed    3.05 sec
+    Start 47: t_address_dt
+7/9 Test #47: t_address_dt .....................   Passed    0.04 sec
+    Start 48: t_parser_dt
+8/9 Test #48: t_parser_dt ......................   Passed    0.00 sec
+    Start 49: t_socket_dt
+9/9 Test #49: t_socket_dt ......................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 9
+
+Total Test time (real) =   3.12 sec
+[100%] Built target check_lab0
+
 ```
