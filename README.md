@@ -135,3 +135,49 @@ Total Test time (real) =   3.12 sec
 [100%] Built target check_lab0
 
 ```
+### lab1
+
+```bash
+(base) jiaopan@master:~/projects/c++/stanford-cs144-labs/cmake-build-debug$ make check_lab1
+[100%] Testing the stream reassembler...
+Test project /home/jiaopan/projects/c++/stanford-cs144-labs/cmake-build-debug
+      Start 15: t_strm_reassem_single
+ 1/16 Test #15: t_strm_reassem_single ............   Passed    0.00 sec
+      Start 16: t_strm_reassem_seq
+ 2/16 Test #16: t_strm_reassem_seq ...............   Passed    0.00 sec
+      Start 17: t_strm_reassem_dup
+ 3/16 Test #17: t_strm_reassem_dup ...............   Passed    0.00 sec
+      Start 18: t_strm_reassem_holes
+ 4/16 Test #18: t_strm_reassem_holes .............   Passed    0.00 sec
+      Start 19: t_strm_reassem_many
+ 5/16 Test #19: t_strm_reassem_many ..............   Passed    0.18 sec
+      Start 20: t_strm_reassem_overlapping
+ 6/16 Test #20: t_strm_reassem_overlapping .......   Passed    0.00 sec
+      Start 21: t_strm_reassem_win
+ 7/16 Test #21: t_strm_reassem_win ...............   Passed    0.20 sec
+      Start 22: t_byte_stream_construction
+ 8/16 Test #22: t_byte_stream_construction .......   Passed    0.00 sec
+      Start 23: t_byte_stream_one_write
+ 9/16 Test #23: t_byte_stream_one_write ..........   Passed    0.00 sec
+      Start 24: t_byte_stream_two_writes
+10/16 Test #24: t_byte_stream_two_writes .........   Passed    0.00 sec
+      Start 25: t_byte_stream_capacity
+11/16 Test #25: t_byte_stream_capacity ...........   Passed    0.00 sec
+      Start 26: t_byte_stream_many_writes
+12/16 Test #26: t_byte_stream_many_writes ........   Passed    0.00 sec
+      Start 27: t_webget
+13/16 Test #27: t_webget .........................   Passed    1.06 sec
+      Start 47: t_address_dt
+14/16 Test #47: t_address_dt .....................   Passed    0.01 sec
+      Start 48: t_parser_dt
+15/16 Test #48: t_parser_dt ......................   Passed    0.00 sec
+      Start 49: t_socket_dt
+16/16 Test #49: t_socket_dt ......................   Passed    0.01 sec
+
+100% tests passed, 0 tests failed out of 16
+
+Total Test time (real) =   1.50 sec
+[100%] Built target check_lab1
+
+```
+
